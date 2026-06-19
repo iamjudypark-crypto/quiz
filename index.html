@@ -1,6 +1,4 @@
-from pathlib import Path
-
-html = r'''<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
@@ -126,8 +124,4 @@ document.getElementById('traits').innerHTML=d.traits.map(t=>`<div class="trait">
 }
 function restart(){location.reload();}
 </script>
-</body></html>'''
-
-path="/mnt/data/무료_애착유형검사_index.html"
-Path(path).write_text(html,encoding="utf-8")
-print(path)
+</body></html>
